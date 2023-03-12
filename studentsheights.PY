@@ -5,4 +5,12 @@ for n in range(0 , len(students_heights)):
 total_height = 0
 for height in students_heights:
     total_height += height
-print (total_height)
+#print (total_height)
+
+number_of_students = 0
+for student in students_heights:
+    number_of_students += 1
+#print (number_of_students)
+
+average =  total_height / number_of_students 
+print (round(average))
