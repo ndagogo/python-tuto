@@ -9,4 +9,5 @@ for score in student_scores:
     if score > newscore:
      newscore = score
 print (f"The highest score is {score}")
+
     
