@@ -12,7 +12,8 @@ end
     l_name = gets.chomp()
     puts "What is your Age?"  
     age = gets.chomp()
-puts  format_name(f_name , l_name , age ) 
+message =  format_name(f_name , l_name  ,  age  ) 
+p message 
 
 
  
